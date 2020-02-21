@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 const ms = require('pretty-ms')
 class Timer extends Component {
     constructor(props){

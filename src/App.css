@@ -1,35 +1,38 @@
-.container{
+@import url('https://fonts.googleapis.com/css?family=Archivo|Audiowide&display=swap');
+ 
+ .container{
   display: flex;
+  background-color: #2C9DEB;
   flex-direction: column;
-  align-items: center;
+  font-family: 'Archivo', ;
+  font-size: 100px;
+  /* align-items: center; */
+} 
+
+.timeDisplay{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  color: white
 }
 
 .Scores{
 display: flex;
-margin: 0 50%;
+justify-items: center;
+justify-content: space-around;
+padding: 50px;
+font-family: 'Archivo', ;
+font-family: 'Audiowide', ;
+font-weight: bold;
+color: white;
 }
 
-.Scores.score1{
+.Buttons{
   display: flex;
-  margin: 0 100%;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.score2{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.team1Buttons{
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-}
-
-.team2Buttons{
-  display: flex;
-  flex-direction: row;
-  align-self: flex-end;
+justify-items: center;
+justify-content: space-around;
+padding: 50px;
+font-family: 'Archivo', ;
+font-family: 'Audiowide', ;
+color: white;
 }

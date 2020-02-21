@@ -61,7 +61,7 @@ class App extends Component {
     return (
       <div>
         <div className="container">
-          <div className="timeScoreDisplay">
+          <div className="timeDisplay">
             <Timer time={Timer} text={"Time"} />
           </div>
           <div className="Scores">
@@ -72,17 +72,19 @@ class App extends Component {
               <p>Score {this.state.counter2}</p>
             </div>
           </div>
-          <div className="team1Buttons">
-            <button onClick={this.try1}>Try</button>
-            <button onClick={this.conversion1}>Conversion</button>
-            <button onClick={this.dropGoal1}>Drop Goal</button>
-            <button onClick={this.penalty1}>Penalty</button>
-          </div>
-          <div className="team2Buttons">
-            <button onClick={this.try2}>Try</button>
-            <button onClick={this.conversion2}>Conversion</button>
-            <button onClick={this.dropGoal2}>Drop Goal</button>
-            <button onClick={this.penalty2}>Penalty</button>
+          <div className="Buttons">
+            <div className="team1Buttons">
+              <button onClick={this.try1}>Try</button>
+              <button onClick={this.conversion1}>Conversion</button>
+              <button onClick={this.dropGoal1}>Drop Goal</button>
+              <button onClick={this.penalty1}>Penalty</button>
+            </div>
+            <div className="team2Buttons">
+              <button onClick={this.try2}>Try</button>
+              <button onClick={this.conversion2}>Conversion</button>
+              <button onClick={this.dropGoal2}>Drop Goal</button>
+              <button onClick={this.penalty2}>Penalty</button>
+            </div>
           </div>
         </div>
       </div>
