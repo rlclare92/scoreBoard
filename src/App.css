@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo|Audiowide&display=swap');
- 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
  .container{
   display: flex;
   background-color: #2C9DEB;
   flex-direction: column;
-  font-family: 'Archivo', ;
-  font-size: 100px;
-  /* align-items: center; */
 } 
 
 .timeDisplay{
@@ -20,19 +17,73 @@
 display: flex;
 justify-items: center;
 justify-content: space-around;
-padding: 50px;
-font-family: 'Archivo', ;
-font-family: 'Audiowide', ;
-font-weight: bold;
+padding: 0px;
+font-family: 'Didact Gothic';
+font-size: 100px;
 color: white;
 }
 
+/* Point scored buttons */
 .Buttons{
-  display: flex;
+display: flex;
 justify-items: center;
-justify-content: space-around;
+justify-content: space-evenly;
 padding: 50px;
-font-family: 'Archivo', ;
-font-family: 'Audiowide', ;
 color: white;
 }
+
+.Stopwatch {
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  padding: 20px;
+  width: 400px;
+  background-color: rgb(22, 27, 31);
+  box-shadow: 0 3px 6px rgb(12, 12, 12);
+}
+
+.Stopwatch-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Timer buttons */
+button {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #106ba3;
+}
+.Stopwatch button {
+  padding: 12px 32px;
+  font-size: 20px;
+}
+
+.Stopwatch-display {
+  padding: 40px 0;
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Didact Gothic';
+  color: white;
+} 
+
+/* Team names */
+.teamNames{
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  font-family: 'Didact Gothic';
+  font-size: 30px;
+  color: white;
+  }
+  
